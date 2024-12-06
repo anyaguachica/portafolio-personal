@@ -33,6 +33,7 @@ nav a:hover {
 
 main {
     padding: 20px;
+    padding-bottom: 80px; /* Asegurar espacio para el footer */
 }
 
 section {
@@ -53,7 +54,6 @@ footer {
     color: #fff;
     text-align: center;
     padding: 1rem 0;
-    position: fixed;
+    position: relative; /* Cambiado de fixed a relative */
     width: 100%;
-    bottom: 0;
 }
